@@ -26,6 +26,11 @@ p{
     color: rgb(255, 136, 0);
 }
 
+#clock{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
 .input{
     margin: 20px;
     width: 360px;
