@@ -9,8 +9,8 @@ body{
 }
 
 .loader{
-    border: 16px solid coral;
-    border-top: 16px solid slateblue;
+    border: 16px solid rgb(255, 255, 255);
+    border-top: 16px solid rgb(255, 241, 178);
     border-radius: 50%;
     width: 120px;
     height: 120px;
