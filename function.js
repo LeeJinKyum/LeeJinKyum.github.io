@@ -7,7 +7,7 @@ function login() {
     if(id.value == "" || pw.value == ""){
         alert("다시 입력하세요.");
     }else{
-        location.href = 'main.html';
+        location.href = 'loading.html';
     }
 }
 
