@@ -11,17 +11,26 @@
       <h1>🦉 OWL 🦉</h1>
       <p>Our Working Logs</p>
       <div id="clock"></div>
-      <form action="main.html">
-        <input type="text" id="user-id" placeholder="ID" class="input" /><br />
-        <input
-          type="text"
-          id="user-pw"
-          placeholder="PASSWORD"
-          class="input"
-        /><br />
-        <input type="submit" id="login" value="Sign In" class="button btn1" />
-        <input type="button" value="Create Account" class="button btn2" />
-      </form>
+      <input type="text" id="user_id" placeholder="ID" class="input" /><br />
+      <input
+        type="text"
+        id="user_pw"
+        placeholder="PASSWORD"
+        class="input"
+      /><br />
+      <input
+        type="button"
+        id="login"
+        value="Sign In"
+        onclick="login();"
+        class="button btn1"
+      />
+      <input
+        type="button"
+        value="Create Account"
+        onclick="create();"
+        class="button btn2"
+      />
     </div>
   </body>
   <script src="function.js"></script>
